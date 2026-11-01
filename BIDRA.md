@@ -22,7 +22,22 @@ kapitler/
 bilder/                  – tegninger og figurer
 ```
 
-## 3. Byggeklosser
+## 3. Emner – viktig!
+
+Alt stoff på nettstedene er ordnet **etter emne**, ikke etter kurs eller universitet. Hver side må derfor si hvilket emne den hører til, øverst i fila:
+
+```yaml
+---
+title: "Arbeid gjort av en kraft"
+emne: arbeid-og-energi
+---
+```
+
+Gyldige emner står i [emner.yml i plattformen](https://github.com/Realfagsambassaden/Plattform/blob/main/emner.yml), for eksempel `kinematikk`, `newtons-lover`, `arbeid-og-energi`, `hydrostatikk`, `elektrisk-felt`, `kvantefysikk`. Mangler emnet ditt? Si fra, så legger vi det til.
+
+Siden dukker da opp under riktig emne på nettstedet, sammen med alt annet stoff om samme tema. Kurs (som TFY4106 på NTNU) lages som **løyper** på toppen: en rekkefølge av sider fra ulike emner.
+
+## 4. Byggeklosser
 
 Alle eksemplene står i `kapitler/01-forste-kapittel/01-eksempelside.qmd`. Kort oppsummert:
 
@@ -32,22 +47,22 @@ Alle eksemplene står i `kapitler/01-forste-kapittel/01-eksempelside.qmd`. Kort 
 - **Oppgave med løsning:** `::: {.oppgave tittel="…"}` med en `::: {.losning}` inni. Studentene får «Vis løsning» og «Få et hint» (KI-hint som bruker løsningen din, så skriv gode løsninger).
 - **Kjørbar Python:** en kodeblokk som starter med ` ```{.python .kjor}`.
 
-## 4. Stil
+## 5. Stil
 
 - Én idé om gangen. Korte avsnitt, mange figurer.
 - Skriv til noen som ikke kan faget fra før. Forklar *hvorfor*, ikke bare *hvordan*.
 - Fysikkonstanter og enheter skrives ikke i kursiv.
 - Tegninger: Dashman-stil og håndskrift fra iPad passer godt. Lagre som PNG eller WebP.
 
-## 5. Status
+## 6. Status
 
 Sett `status` i `fag.yml`:
 
 - `skjult` – vises ikke på nettsiden (start her)
 - `arbeid` – vises med «Under arbeid»
-- `klar` – vises som ferdig fag
+- `klar` – vises som ferdig
 
-## 6. Rettigheter
+## 7. Rettigheter
 
 Innholdet publiseres av Realfagsambassaden. Avklar lisens og eierskap med plattformansvarlig før du publiserer innhold du har laget i en annen jobb.
 
