@@ -49,6 +49,9 @@ Alle eksemplene står i `kapitler/01-forste-kapittel/01-eksempelside.qmd`. Kort 
 
 ## 5. Stil
 
+- **Skriv kursnøytralt.** Samme side kan brukes i flere fag. Skriv aldri «i dette faget», «i kurset», «i pensum» eller «i forrige kapittel». Vis heller til nivå: «På forkursnivå …», «På ingeniørnivå …».
+- Hver side merkes med `delemne:` i tillegg til `emne:` (se delemnene i emner.yml i plattformen).
+
 - Én idé om gangen. Korte avsnitt, mange figurer.
 - Skriv til noen som ikke kan faget fra før. Forklar *hvorfor*, ikke bare *hvordan*.
 - Fysikkonstanter og enheter skrives ikke i kursiv.
