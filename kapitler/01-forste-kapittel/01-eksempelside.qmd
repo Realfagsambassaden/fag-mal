@@ -27,6 +27,21 @@ Tegn alltid en figur først.
 **Eksempel:** En kasse dras 5 m med en kraft på 20 N. Arbeidet er $W = 20 \cdot 5 = 100$ J.
 :::
 
+## Steg og kort i stedet for punktlister
+
+Vanlige punktlister blir fort kjedelige. Bruk heller en av disse (eller en TikZ-figur):
+
+::: {.steg}
+1. **Tegn** situasjonen.
+2. **Skriv opp** det du vet.
+3. **Regn ut** og sjekk enheten.
+:::
+
+::: {.kort}
+- **Elastisk støt** Både bevegelsesmengde og kinetisk energi er bevart.
+- **Uelastisk støt** Bare bevegelsesmengden er bevart.
+:::
+
 ## Oppgaver med løsning og KI-hint
 
 :::: {.oppgaver}
@@ -54,3 +69,5 @@ print("W =", round(F * s * np.cos(theta)), "J")
 Legg bildet i mappen `bilder/` og vis det slik:
 
 ![Forklaring av bildet](../../bilder/forside.webp)
+
+Nettsidene har lys og mørk modus, så bilder skal ikke ha hvit bakgrunn. TikZ-figurer tegnes svart på gjennomsiktig bakgrunn og merkes `{.tikz-fig}`. Skannede bilder merkes `{.kompendium-bilde}`, fargefigurer i tillegg `.farge` og fotografier `.foto` (se `AGENTS.md` i Plattform).
