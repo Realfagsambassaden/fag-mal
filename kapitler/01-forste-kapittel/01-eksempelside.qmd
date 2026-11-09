@@ -1,6 +1,7 @@
 ---
 title: "Eksempelside – slik bygger du en side"
-emne: arbeid-og-energi      # hvilket emne siden hører til – se lista i BIDRA.md
+tema: arbeid-og-energi      # hvilket tema siden hører til – se tema.yml i plattformen
+undertema: arbeid           # hvilket undertema (se «undertemaer» under temaet)
 ---
 
 Vanlig tekst skrives som her. **Fet**, *kursiv*, og formler med dollartegn: $F = ma$, eller på egen linje:
